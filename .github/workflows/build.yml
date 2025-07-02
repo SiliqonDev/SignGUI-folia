@@ -30,10 +30,16 @@ jobs:
     - name: Build the dependencies of the api
       run: mvn -B install --file pom.xml -pl '!api'
 
-    - name: Build and deploy the api
+    - name: Package
       working-directory: ./api
-      run: mvn -B deploy --file pom.xml
+      run: mvn -B package --file pom.xml
       env:
         CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
         CENTRAL_TOKEN: ${{ secrets.CENTRAL_TOKEN }}
         GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+
+    - name: Upload SignGUI jar
+      uses: actions/upload-artifact@v2
+      with:
+        name: SignGUI-build
+        path: api/target/signgui-2.5.3-jar

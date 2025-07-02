@@ -291,14 +291,14 @@
                         <goals>
                             <goal>shade</goal>
                         </goals>
-                        <!--<configuration>
+                        <configuration>
                             <relocations>
                                 <relocation>
-                                    <pattern>org.json</pattern>
-                                    <shadedPattern>de.rapha149.signgui.json</shadedPattern>
+                                    <pattern>fr.euphyllia.energie</pattern>
+                                    <shadedPattern>de.rapha149.signgui.dependency.energie</shadedPattern>
                                 </relocation>
                             </relocations>
-                        </configuration>-->
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
