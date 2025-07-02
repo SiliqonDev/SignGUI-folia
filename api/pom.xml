@@ -47,7 +47,7 @@
             <groupId>com.github.Euphillya</groupId>
             <artifactId>Energie</artifactId>
             <version>5659f25e22</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>

@@ -1,7 +1,9 @@
-# SignGUI [![Build](https://github.com/Rapha149/SignGUI/actions/workflows/build.yml/badge.svg)](https://github.com/Rapha149/SignGUI/actions/workflows/build.yml) [![Maven Central](https://img.shields.io/maven-central/v/de.rapha149.signgui/signgui?label=Maven%20Central)](https://central.sonatype.com/artifact/de.rapha149.signgui/signgui) [![Javadoc](https://javadoc.io/badge2/de.rapha149.signgui/signgui/Javadoc.svg)](https://javadoc.io/doc/de.rapha149.signgui/signgui) 
+# SignGUI-folia [![Build](https://github.com/Rapha149/SignGUI/actions/workflows/build.yml/badge.svg)](https://github.com/Rapha149/SignGUI/actions/workflows/build.yml) [![Maven Central](https://img.shields.io/maven-central/v/de.rapha149.signgui/signgui?label=Maven%20Central)](https://central.sonatype.com/artifact/de.rapha149.signgui/signgui) [![Javadoc](https://javadoc.io/badge2/de.rapha149.signgui/signgui/Javadoc.svg)](https://javadoc.io/doc/de.rapha149.signgui/signgui) 
 An api to get input text via a sign in Minecraft.  
 The api supports the Minecraft versions from `1.8` to `1.21`.  
 Also supports adventure text and mojang-mapped Paper plugins (1.20.5+).
+
+### supports folia
 
 ## Integration
 
