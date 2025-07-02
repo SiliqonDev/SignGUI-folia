@@ -39,7 +39,7 @@ jobs:
         GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
     - name: Upload SignGUI jar
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: SignGUI-build
         path: api/target/signgui-2.5.3-jar
