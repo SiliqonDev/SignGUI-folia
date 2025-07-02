@@ -42,4 +42,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: SignGUI-build
-        path: api/target/signgui-2.5.3-jar
+        path: api/target/signgui-2.5.3.jar
