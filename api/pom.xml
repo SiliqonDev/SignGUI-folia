@@ -44,6 +44,12 @@
             <version>20240303</version>
         </dependency>-->
         <dependency>
+            <groupId>com.github.Euphillya</groupId>
+            <artifactId>Energie</artifactId>
+            <version>5659f25e22</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot</artifactId>
             <version>1.8-R0.1-SNAPSHOT</version>
@@ -293,28 +299,6 @@
                                 </relocation>
                             </relocations>
                         </configuration>-->
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <source>8</source>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>attach-javadocs</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                        <configuration>
-                            <includeDependencySources>true</includeDependencySources>
-                            <dependencySourceIncludes>
-                                <dependencySourceInclude>de.rapha149.signgui:signgui-wrapper</dependencySourceInclude>
-                            </dependencySourceIncludes>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
