@@ -12,7 +12,7 @@
     <modules>
         <module>api</module>
         <module>wrapper</module>
-        <!--
+
         <module>1_8_R1</module>
         <module>1_8_R2</module>
         <module>1_8_R3</module>
@@ -45,11 +45,13 @@
         <module>Mojang1_21_R2</module>
         <module>1_21_R3</module>
         <module>Mojang1_21_R3</module>
-        -->
+
         <module>1_21_R4</module>
         <module>Mojang1_21_R4</module>
+
         <module>1_21_R5</module>
         <module>Mojang1_21_R5</module>
+
     </modules>
 
     <properties>
